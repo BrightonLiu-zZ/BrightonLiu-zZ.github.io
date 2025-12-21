@@ -11,7 +11,8 @@ profile:
   address: >
     <p>San Diego, CA</p>
 
-news: true  # Pulls from _news/
+announcements:
+  enabled: true
 selected_projects: true # Pulls projects marked 'selected: true'
 social: true  # Pulls from _data/social.yml
 ---
