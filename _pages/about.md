@@ -13,7 +13,7 @@ profile:
 
 announcements:
   enabled: true
-selected_projects: true # Pulls projects marked 'selected: true'
+selected_projects: false # Pulls projects marked 'selected: true'
 social: true  # Pulls from _data/social.yml
 ---
 
