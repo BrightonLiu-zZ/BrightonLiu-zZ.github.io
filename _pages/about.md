@@ -2,33 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Quantitative Research Aspirant</a>. Physics & DS Student @ UCSD. Data Science Intern @ Himiway.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image_circular: false
+  address: >
+    <p>San Diego, CA</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+news: true  # Pulls from _news/
+selected_projects: true # Pulls projects marked 'selected: true'
+social: true  # Pulls from _data/social.yml
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+[cite_start]I am an undergraduate student at the **University of California, San Diego**, pursuing a B.S. in **Astrophysics** with a minor in **Data Science**[cite: 8]. [cite_start]My academic journey began at UC Davis, where I double-majored in Physics and Data Science[cite: 9].
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My primary focus is **Quantitative Research**. [cite_start]I specialize in building robust training and inference pipelines, designing evaluation harnesses, and ensuring reproducibility in ML workflows[cite: 4]. [cite_start]I have a strong foundation in **Python, R, and SQL**, utilizing tools like **scikit-learn, XGBoost, and TensorFlow** to solve complex data problems[cite: 5, 12].
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+[cite_start]Currently, I am a **Data Science Intern** at **Himiway Intelligent Technology**[cite: 17]. [cite_start]At Himiway, I design layered **PostgreSQL ETL pipelines** and train **XGBoost models** with time-series cross-validation to forecast demand and inform site selection[cite: 19, 20].
+
+[cite_start]I am also the Project Lead for a **KataGo x LLM** initiative, managing a team of 6 contributors to fine-tune LLMs for explaining Go game strategies[cite: 35, 40].
+
+[cite_start]If you are looking for a researcher who can bridge the gap between statistical theory and production-grade code, please **[contact me](mailto:liuzijun6688@gmail.com)**[cite: 2].
