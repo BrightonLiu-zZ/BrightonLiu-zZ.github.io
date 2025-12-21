@@ -440,37 +440,35 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/al-folio/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "news-cite-start-selected-as-a-finalist-top-8-at-the-breaking-barriers-hackathon-aws-x-deloitte-cite-24",
+          title: '[cite_start]Selected as a Finalist (Top 8) at the Breaking Barriers Hackathon (AWS x...',
+          description: "",
+          section: "News",},{id: "news-cite-start-started-a-new-role-as-a-data-science-intern-at-himiway-intelligent-technology-cite-17",
+          title: '[cite_start]Started a new role as a Data Science Intern at Himiway Intelligent Technology[cite:...',
+          description: "",
+          section: "News",},{id: "projects-katago-x-llm-explainable-ai",
+          title: 'KataGo x LLM Explainable AI',
+          description: "Fine-tuning LLMs to explain Go strategies using serialized game states.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/al-folio/projects/1_katago_llm/";
+            },},{id: "projects-galaxy-spectra-pca-pipeline",
+          title: 'Galaxy Spectra PCA Pipeline',
+          description: "Research with Prof. Wittman involving high-dimensional signal processing.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/al-folio/projects/2_galaxy_spectra/";
+            },},{id: "projects-himiway-demand-forecasting",
+          title: 'Himiway Demand Forecasting',
+          description: "End-to-end ETL and forecasting for intelligent site selection.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/al-folio/projects/3_himiway/";
+            },},{id: "projects-breaking-barriers-hackathon",
+          title: 'Breaking Barriers Hackathon',
+          description: "AWS x Deloitte x AT&amp;T Finalist Project.",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/4_project/";
+              window.location.href = "/al-folio/projects/4_hackathon/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
@@ -497,46 +495,18 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/9_project/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/al-folio/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6C%69%75%7A%69%6A%75%6E%36%36%38%38@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/al-folio/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://github.com/BrightonLiu-zZ", "_blank");
         },
       },{
       id: 'light-theme',
