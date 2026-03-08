@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of projects in ML engineering, quantitative research, and astrophysics.",
+          description: "A growing collection of projects in ML engineering and astrophysics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -66,8 +66,8 @@ ninja.data = [{
           description: "Automated high-dimensional spectra preprocessing and unsupervised PCA outlier filtering with Prof. Wittman at UC Davis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_galaxy_spectra/";
-            },},{id: "projects-breaking-barriers-hackathon-finalist",
-          title: 'Breaking Barriers Hackathon — Finalist',
+            },},{id: "projects-breaking-barriers-hackathon",
+          title: 'Breaking Barriers Hackathon',
           description: "Real-time anomaly detection system deployed on AWS. Top 8 of 32 teams at AWS × Deloitte × AT&amp;T.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_hackathon/";
