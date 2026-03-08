@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-news",
-          title: "news",
-          description: "Recent news and updates.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/news/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -398,11 +391,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-cite-start-selected-as-a-finalist-top-8-at-the-breaking-barriers-hackathon-aws-x-deloitte-cite-24",
-          title: '[cite_start]Selected as a Finalist (Top 8) at the Breaking Barriers Hackathon (AWS x...',
-          description: "",
-          section: "News",},{id: "news-cite-start-started-a-new-role-as-a-data-science-intern-at-himiway-intelligent-technology-cite-17",
-          title: '[cite_start]Started a new role as a Data Science Intern at Himiway Intelligent Technology[cite:...',
+            },},{id: "news-started-a-new-role-as-a-data-science-intern-at-himiway-intelligent-technology",
+          title: 'Started a new role as a Data Science Intern at Himiway Intelligent Technology....',
           description: "",
           section: "News",},{id: "news-started-a-new-role-as-an-ai-ml-quantitative-research-intern-at-rothenberg-wealth-strategies-working-on-model-evaluation-pipelines-and-feature-engineering-for-production-quant-research",
           title: 'Started a new role as an AI/ML Quantitative Research Intern at Rothenberg Wealth...',
@@ -417,11 +407,6 @@ ninja.data = [{
           description: "Automated high-dimensional spectra preprocessing and unsupervised PCA outlier filtering with Prof. Wittman at UC Davis.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_galaxy_spectra/";
-            },},{id: "projects-himiway-demand-forecasting-amp-site-selection",
-          title: 'Himiway — Demand Forecasting &amp;amp; Site Selection',
-          description: "End-to-end ETL pipeline and XGBoost forecasting model for strategic store location decisions.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_himiway/";
             },},{id: "projects-breaking-barriers-hackathon-finalist",
           title: 'Breaking Barriers Hackathon — Finalist',
           description: "Real-time anomaly detection system deployed on AWS. Top 8 of 32 teams at AWS × Deloitte × AT&amp;T.",
