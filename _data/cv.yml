@@ -74,9 +74,6 @@
     - year: 2025
       items:
         - "Breaking Barriers Hackathon Finalist — Top 8 of 32 Teams (AWS × Deloitte × AT&T)"
-    - year: 2025 - 2027
-      items:
-        - GPA 3.97 (Institutional), UC San Diego
 
 - title: Skills
   type: nested_list
