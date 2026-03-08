@@ -1,18 +1,33 @@
 ---
 layout: page
-title: Galaxy Spectra PCA Pipeline
-description: Research with Prof. Wittman involving high-dimensional signal processing.
-img: assets/img/galaxy_thumbnail.jpg # You need to add this image later
-importance: 2
-category: Research & Engineering
+title: PHY199 — Galaxy Spectra PCA Pipeline
+description: Automated high-dimensional spectra preprocessing and unsupervised PCA outlier filtering with Prof. Wittman at UC Davis.
+img: assets/img/galaxy_thumbnail.jpg
+importance: 3
+category: Research
 selected: true
 ---
 
-**Role:** Student Researcher | **Stack:** Python, R, PCA
+**Role:** Student Researcher &nbsp;&middot;&nbsp; **Advisor:** Prof. Wittman, UC Davis &nbsp;&middot;&nbsp; **Stack:** Python, R, Scikit-learn (PCA) &nbsp;&middot;&nbsp; **Year:** 2025
 
-[cite_start]Working under Professor Wittman, I built a reproducible pipeline to analyze high-dimensional astronomical data[cite: 29].
+---
 
-**Methodology:**
-* **Preprocessing:** Processed 2,323 spectra, handling missing data and anomalous flux spikes. [cite_start]I modified the unsharp masking technique to strictly avoid division artifacts during normalization[cite: 32].
-* **Dimensionality Reduction:** Built a **PCA-based outlier filtering** system. [cite_start]I produced interpretable principal components (PC1-PC3) to visualize clusters and performed regression analyses[cite: 33].
-* [cite_start]**Deliverables:** Delivered a fully scripted, reproducible pipeline in Python and R, along with advisor-facing reports explaining the high-dimensional signals[cite: 33, 34].
+### Overview
+
+Working under Professor Wittman at UC Davis, I built a fully reproducible pipeline to analyze a high-dimensional astronomical dataset comprising **2,300+ galaxy spectra**. The project addressed the practical data quality challenges that precede any downstream analysis — artifact removal, normalization, and systematic outlier detection.
+
+### Pipeline
+
+**Preprocessing**
+- Developed an automated Python/R preprocessing pipeline to clean flux measurements across thousands of wavelength bins.
+- Applied **custom unsharp masking** to resolve normalization artifacts and anomalous flux spikes, carefully avoiding division artifacts during the masking step.
+- Handled missing values and flagged spectra with known instrumental issues.
+
+**Dimensionality Reduction & Outlier Filtering**
+- Designed an unsupervised ML framework using **scikit-learn PCA** for automated outlier detection, eliminating the need for manual inspection of thousands of spectra.
+- Extracted and physically interpreted **PC1–PC3**: the principal components correspond to known spectral features (continuum slope, emission line strength, Balmer break depth), making the pipeline auditable and scientifically meaningful.
+- Produced 2D and 3D cluster visualizations to identify spectral sub-populations.
+
+**Deliverables**
+- Packaged the full workflow into a **reproducible Python/R codebase** with automated visualization generation.
+- Delivered advisor-facing reports translating complex high-dimensional signals into actionable scientific insights.

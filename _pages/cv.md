@@ -3,9 +3,12 @@ layout: cv
 permalink: /cv/
 title: cv
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+nav_order: 3
+cv_pdf: assets/pdf/resume_aiml.pdf
+description: >
+  Zijun Liu — AI/ML Engineering & Quantitative Research. &nbsp;
+  Download: <a href="/assets/pdf/resume_aiml.pdf" target="_blank">AI/ML Resume</a> &nbsp;&middot;&nbsp;
+  <a href="/assets/pdf/resume_quant.pdf" target="_blank">Quant Research Resume</a>
 toc:
   sidebar: left
 ---

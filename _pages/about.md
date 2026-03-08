@@ -2,27 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Quantitative Research Aspirant</a>. Physics & DS Student @ UCSD. Data Science Intern @ Himiway.
+subtitle: >
+  ML Engineer & Quant Researcher &nbsp;·&nbsp; Astrophysics + Data Science @ UCSD &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/brighton-liu-2b819b331" target="_blank">LinkedIn</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  address: >
+  more_info: >
     <p>San Diego, CA</p>
+    <p><a href="mailto:liuzijun6688@gmail.com">liuzijun6688@gmail.com</a></p>
+    <p>530-220-8681</p>
 
 announcements:
   enabled: true
-selected_projects: false # Pulls projects marked 'selected: true'
-social: true  # Pulls from _data/social.yml
+selected_projects: true
+social: true  # Pulls from _data/socials.yml
 ---
 
-[cite_start]I am an undergraduate student at the **University of California, San Diego**, pursuing a B.S. in **Astrophysics** with a minor in **Data Science**[cite: 8]. [cite_start]My academic journey began at UC Davis, where I double-majored in Physics and Data Science[cite: 9].
+I am an undergraduate at the **University of California, San Diego**, pursuing a B.S. in **Astrophysics** with a minor in **Data Science**. Before transferring to UCSD, I completed two years at **UC Davis** double-majoring in Physics and Data Science, graduating with a 3.84 GPA. At UCSD, I carry a 3.97 institutional GPA.
 
-My primary focus is **Quantitative Research**. [cite_start]I specialize in building robust training and inference pipelines, designing evaluation harnesses, and ensuring reproducibility in ML workflows[cite: 4]. [cite_start]I have a strong foundation in **Python, R, and SQL**, utilizing tools like **scikit-learn, XGBoost, and TensorFlow** to solve complex data problems[cite: 5, 12].
+Currently, I am an **AI/ML Quantitative Research Intern** at **Rothenberg Wealth Strategies**, where I engineer high-performance model evaluation pipelines — leveraging multiprocessing and Optuna to cut simulation runtimes for 1,000+ parameter combinations by over 75% — and develop feature engineering modules for LightGBM and TCN models deployed in production. Prior to Rothenberg, I interned at **Himiway Intelligent Technology** as a Data Science Intern, architecting SQL/Python ETL pipelines and deploying XGBoost demand-forecasting models that accelerated executive decision cycles from four weeks to one.
 
-[cite_start]Currently, I am a **Data Science Intern** at **Himiway Intelligent Technology**[cite: 17]. [cite_start]At Himiway, I design layered **PostgreSQL ETL pipelines** and train **XGBoost models** with time-series cross-validation to forecast demand and inform site selection[cite: 19, 20].
+My background in astrophysics shaped one skill above all others: extracting weak signals from overwhelming noise. The same rigor I apply to processing million-row galaxy spectra directly informs how I approach financial and ML datasets — with extreme skepticism. At Rothenberg, I was tasked with replicating GenAI-mined alpha factors claiming Sharpe ratios above 6.0. By modeling realistic transaction costs, I proved their actual win rates dropped below 50%. This experience reinforced a core belief: every hypothesis, regardless of its source or apparent authority, demands rigorous falsification and out-of-sample stress testing before deployment.
 
-[cite_start]I am also the Project Lead for a **KataGo x LLM** initiative, managing a team of 6 contributors to fine-tune LLMs for explaining Go game strategies[cite: 35, 40].
+As a competitive Go player and the lead developer of the **[KataGo × LLM](https://github.com/BrightonLiu-zZ/KataGo-LLM-Team)** project, I think about both ML systems and quantitative research through the lens of variance management. Modern Go AI teaches a profound lesson: optimize for the *probability* of winning, not the *margin* of victory — it actively sacrifices high-margin local gains to reduce global variance. I apply this same philosophy to model and strategy design, favoring lower absolute returns with minimal drawdown and high information ratios over brittle high-return configurations. In both Go and production ML, managing variance to survive to the next iteration is the ultimate edge.
 
-[cite_start]If you are looking for a researcher who can bridge the gap between statistical theory and production-grade code, please **[contact me](mailto:liuzijun6688@gmail.com)**[cite: 2].
+If you are looking for an engineer who builds robust ML systems while thinking carefully about what the models actually prove, **[get in touch](mailto:liuzijun6688@gmail.com)**.

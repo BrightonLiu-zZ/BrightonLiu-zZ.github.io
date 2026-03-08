@@ -1,18 +1,35 @@
 ---
 layout: page
-title: KataGo x LLM Explainable AI
-description: Fine-tuning LLMs to explain Go strategies using serialized game states.
-img: assets/img/katago_thumbnail.jpg # You need to add this image later
+title: KataGo × LLM — Explainable Go AI
+description: Fine-tuning LLMs with RL to explain Go strategies using KataGo's superhuman analysis.
+img: assets/img/katago_thumbnail.jpg
 importance: 1
-category: Research & Engineering
+category: ML Engineering
 selected: true
 ---
 
-**Role:** Project Lead | **Stack:** Python, Qwen2.5, Hugging Face, KataGo
+**Role:** Project Lead &nbsp;&middot;&nbsp; **Stack:** Python, C++, Qwen2.5-7B, Hugging Face TRL, KataGo &nbsp;&middot;&nbsp; **Year:** 2025 – Present
 
-[cite_start]As the Project Lead for this initiative, I am coordinating a team of 6 contributors to build an Explainable AI system for the game of Go[cite: 35, 40]. The goal is to fine-tune Large Language Models (LLMs) to provide natural language explanations for complex game situations.
+<a href="https://github.com/BrightonLiu-zZ/KataGo-LLM-Team" target="_blank" class="btn btn-sm z-depth-0" role="button" style="font-size:0.85rem;">GitHub &rarr;</a>
 
-**Key Technical Contributions:**
-* **Custom GTP Proxy:** Wrote `my_gtp_proxy.py` to intercept Go Text Protocol (GTP) commands from Lizzie/KataGo. [cite_start]This allows us to serialize game states and KataGo's analysis into JSONL format in real-time[cite: 36].
-* **Data Pipeline:** Designed a pipeline to parse SGF records and query KataGo-18B. [cite_start]We extract top-k candidate moves along with win-rates and score-leads to create a filtered dataset for reward signals[cite: 37].
-* **LLM Fine-tuning:** Adapted Hugging Face scripts to fine-tune **Qwen2.5-7B-Instruct** using LORA/GRPO techniques. [cite_start]I also set up local inference prototyping using LM Studio[cite: 39].
+---
+
+### Motivation
+
+Traditional Go AI like KataGo is opaque: it outputs top-k moves with win-rate estimates but cannot explain *why* a move fits the global context of the game. Beginners and intermediate players receive no transferable insight. This project fine-tunes a large language model to translate KataGo's raw policy and value signals into human-interpretable strategic reasoning.
+
+### Technical Approach
+
+**Fine-tuning Pipeline**
+- Fine-tuned **Qwen2.5-7B-Instruct** using **Hugging Face TRL (GRPOTrainer)** reinforcement learning framework.
+- Applied **4-bit quantization** to significantly reduce memory footprint and accelerate inference speed for local and edge deployment constraints.
+
+**Reward Mechanism**
+- Reward signal derived from KataGo's **Policy Value (Prior Probability)**, **ScoreLead**, and **Winrate deltas**.
+- Introduced strict penalty terms to constrain the action space: suppressing illegal moves, hallucinations, and format noise.
+- Result: **~90% reduction in invalid actions** across evaluation games.
+
+**C++ GTP Proxy**
+- Engineered a **C++ Go Text Protocol (GTP) proxy** for interactive model serving, intercepting GTP commands from Lizzie/KataGo.
+- Serializes live game states and KataGo's analysis for real-time inference.
+- Performance improvement: model elevated from **10k to 5k rating** against human players.

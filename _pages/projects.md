@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of projects in ML engineering, quantitative research, and astrophysics.
 nav: true
-nav_order: 3
+nav_order: 2
 horizontal: false
 ---
 

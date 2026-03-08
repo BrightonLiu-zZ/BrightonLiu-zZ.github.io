@@ -2,78 +2,112 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Zijun Liu
+    - name: Location
+      value: San Diego, CA
+    - name: Email
+      value: liuzijun6688@gmail.com
+    - name: Phone
+      value: 530-220-8681
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. Astrophysics, Data Science Minor
+      institution: University of California, San Diego
+      year: 2025 - 2027
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "GPA: 3.97 (Institutional) | 3.87 (Cumulative)"
+    - title: B.S. Physics (Astrophysics Emphasis) & Data Science
+      institution: University of California, Davis
+      year: 2023 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.84"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: AI/ML Quantitative Research Intern
+      institution: Rothenberg Wealth Strategies
+      year: Jan 2026 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Engineered a high-performance model evaluation pipeline using multiprocessing and Optuna, reducing simulation runtime for 1,000+ parameter combinations by over 75% (from 8+ hours to <2 hours).
+        - Developed features and sanity-testing frameworks for LightGBM classifier and TCN regressor; eliminated data leakage in out-of-sample stress tests via automated random-sampling validation scripts.
+        - Deployed optimized feature engineering and testing modules into the firm's production codebase via Git, collaborating with senior developers to maintain scalable and reproducible research pipelines.
+    - title: Data Science Intern
+      institution: Himiway Intelligent Technology USA
+      year: Sep 2025 - Dec 2025
       description:
-        - Description 1.
-        - Description 2.
+        - Architected a scalable SQL/Python ETL pipeline for e-bike sales forecasting; refactored Jupyter notebooks into a production-ready modular codebase (argparse, logging, Makefile orchestration).
+        - Developed and deployed an end-to-end XGBoost model to optimize regional store locations and inventory allocation, accelerating the executive decision-making cycle by 75% (from 4 weeks to 1 week).
+        - Designed and evaluated a months-long A/B test on in-store customer experiences (fat-tire vs. thin-tire); leveraged Tableau to analyze Conversion Rate and Revenue per Visitor, driving data-informed retail decisions.
 
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/BrightonLiu-zZ/KataGo-LLM-Team">KataGo × LLM — Explainable Go AI</a>
+      year: 2025 - Now
+      description:
+        - Project Lead. Fine-tuned Qwen2.5-7B using Hugging Face TRL and GRPO with 4-bit quantization for efficient local inference.
+        - Designed reward mechanism using KataGo's Policy Value, ScoreLead, and Winrate deltas with penalty terms suppressing illegal moves, hallucinations, and format noise — reducing invalid actions by ~90%.
+        - Engineered a C++ GTP proxy for interactive model serving; elevated model from 10k to 5k rating against human players.
+    - title: ASTR199 — Stellar Parameter Prediction via Deep Learning
+      year: 2026
+      description:
+        - Machine Learning Researcher with Prof. Theissen, UCSD.
+        - Engineered a large-scale SQL pipeline to cross-match 1M+ rows across Gaia, SDSS, WISE catalogs with Sigma Clipping for quality filtering.
+        - Baseline MLP for multi-target regression (Teff, Metallicity, Surface Gravity); applied PEFT via LoRA for M-dwarf sub-populations, reducing RMSE by ~20%.
+    - title: Breaking Barriers Hackathon — Finalist (Top 8/32)
+      year: 2025
+      description:
+        - "AWS × Deloitte × AT&T. Real-time anomaly detection with 0.5–1s micro-batching pipeline for LLM-generated data streams."
+        - XGBoost classifier with PR AUC threshold tuning deployed via AWS Lambda (<100ms) with Amazon Location Service interactive dashboard.
+    - title: PHY199 — Galaxy Spectra PCA Pipeline
+      year: 2025
+      description:
+        - Researcher with Prof. Wittman, UCD.
+        - Automated Python/R preprocessing pipeline for 2,300+ high-dimensional spectra; PCA-based outlier filtering via scikit-learn extracting key features PC1–PC3.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "Breaking Barriers Hackathon Finalist — Top 8 of 32 Teams (AWS × Deloitte × AT&T)"
+    - year: 2025 - 2027
       items:
-        - Max Planck Medal
+        - GPA 3.97 (Institutional), UC San Diego
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Languages
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, C++, SQL, R, Bash/Shell
+    - title: Machine Learning & AI
       items:
-        - Description 1.
-        - Description 2.
+        - PyTorch, TensorFlow, Hugging Face (TRL, Transformers)
+        - Model Quantization (4-bit), PEFT/LoRA
+        - XGBoost, LightGBM, TCN (Temporal Convolutional Networks), Scikit-learn, Optuna
+    - title: Data Engineering & Systems
+      items:
+        - DuckDB, Polars, Pandas, PostgreSQL, NumPy
+        - IPC, Multiprocessing, ETL Architecture, REST APIs
+    - title: Cloud & MLOps
+      items:
+        - AWS (Lambda, SageMaker, S3), Docker
+        - Git/GitHub CI/CD, Linux Environment
+    - title: Quantitative Methods
+      items:
+        - Strategy Falsification, Vectorized Backtesting
+        - Market Microstructure, Risk Analysis, Time-Series Analysis
+
+- title: Leadership
+  type: time_table
+  contents:
+    - title: President & Co-Founder
+      institution: Go Club at UC Davis
+      year: Sep 2024 - Jun 2025
+      description:
+        - Grew membership to 30+ members; coordinated with ACGA and universities to run inter-school competitions and community events.
+        - Led cross-cultural, mixed-skill communications; organized weekly programs and external collaborations.
