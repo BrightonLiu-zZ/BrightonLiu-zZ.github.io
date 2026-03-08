@@ -89,7 +89,7 @@
     - title: Data Engineering & Systems
       items:
         - DuckDB, Polars, Pandas, PostgreSQL, NumPy
-        - IPC, Multiprocessing, ETL Architecture, REST APIs
+        - Inter-Process Communication (IPC), Multiprocessing, ETL Architecture, REST APIs
     - title: Cloud & MLOps
       items:
         - AWS (Lambda, SageMaker, S3), Docker
