@@ -2,8 +2,8 @@
 layout: page
 title: Breaking Barriers Hackathon — Finalist
 description: Real-time anomaly detection system deployed on AWS. Top 8 of 32 teams at AWS × Deloitte × AT&T.
-img: assets/img/hackathon_thumbnail.jpg
-importance: 5
+img: assets/img/hackathon.png
+importance: 4
 category: Industry
 selected: false
 ---

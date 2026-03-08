@@ -17,7 +17,7 @@ profile:
 
 announcements:
   enabled: true
-selected_projects: true
+selected_projects: false
 social: true  # Pulls from _data/socials.yml
 ---
 

@@ -2,7 +2,7 @@
 layout: page
 title: KataGo × LLM — Explainable Go AI
 description: Fine-tuning LLMs with RL to explain Go strategies using KataGo's superhuman analysis.
-img: assets/img/katago_thumbnail.jpg
+img: assets/img/katago_llm.png
 importance: 1
 category: ML Engineering
 selected: true
