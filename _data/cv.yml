@@ -57,7 +57,7 @@
         - Machine Learning Researcher with Prof. Theissen, UCSD.
         - Engineered a large-scale SQL pipeline to cross-match 1M+ rows across Gaia, SDSS, WISE catalogs with Sigma Clipping for quality filtering.
         - Baseline MLP for multi-target regression (Teff, Metallicity, Surface Gravity); applied PEFT via LoRA for M-dwarf sub-populations, reducing RMSE by ~20%.
-    - title: Breaking Barriers Hackathon — Finalist (Top 8/32)
+    - title: Breaking Barriers Hackathon (Top 8/32)
       year: 2025
       description:
         - "AWS × Deloitte × AT&T. Real-time anomaly detection with 0.5–1s micro-batching pipeline for LLM-generated data streams."
