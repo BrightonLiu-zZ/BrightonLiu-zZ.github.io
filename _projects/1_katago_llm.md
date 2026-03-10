@@ -37,6 +37,6 @@ Traditional Go AI like KataGo is opaque: it outputs top-k moves with win-rate es
 ---
 
 <a id="demo-video"></a>
-### Demo: Lizzie 棋盘上自动落子
+### Demo: Auto-play on Lizzie 
 
-{% include video.liquid path="assets/video/katago_lizzie_demo.mp4" width="100%" controls=true caption="Lizzie 棋盘上自动落子 — 与模型对弈演示" %}
+{% include video.liquid path="assets/video/katago_lizzie_demo.mp4" width="100%" controls=true caption="Auto-play on Lizzie: Human vs. Model Gameplay" %}
