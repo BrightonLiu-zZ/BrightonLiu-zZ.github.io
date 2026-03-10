@@ -45,7 +45,7 @@
 - title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/BrightonLiu-zZ/KataGo-LLM-Team">KataGo × LLM — Explainable Go AI</a>
+    - title: <a href="/projects/1_katago_llm/#demo-video">KataGo × LLM — Explainable Go AI</a>
       year: 2025 - Now
       description:
         - Project Lead. Fine-tuned Qwen2.5-7B using Hugging Face TRL and GRPO with 4-bit quantization for efficient local inference.

@@ -33,3 +33,10 @@ Traditional Go AI like KataGo is opaque: it outputs top-k moves with win-rate es
 - Engineered a **C++ Go Text Protocol (GTP) proxy** for interactive model serving, intercepting GTP commands from Lizzie/KataGo.
 - Serializes live game states and KataGo's analysis for real-time inference.
 - Performance improvement: model elevated from **10k to 5k rating** against human players.
+
+---
+
+<a id="demo-video"></a>
+### Demo: Lizzie 棋盘上自动落子
+
+{% include video.liquid path="assets/video/katago_lizzie_demo.mp4" width="100%" controls=true caption="Lizzie 棋盘上自动落子 — 与模型对弈演示" %}
