@@ -3,12 +3,14 @@ layout: page
 title: PHY199 — Galaxy Spectra PCA Pipeline
 description: Automated high-dimensional spectra preprocessing and unsupervised PCA outlier filtering with Prof. Wittman at UC Davis.
 img: assets/img/galaxy_spectra.png
-importance: 3
+importance: 4
 category: Research
 selected: true
 ---
 
 **Role:** Student Researcher &nbsp;&middot;&nbsp; **Advisor:** Prof. Wittman, UC Davis &nbsp;&middot;&nbsp; **Stack:** Python, R, Scikit-learn (PCA) &nbsp;&middot;&nbsp; **Year:** 2025
+
+<a href="https://github.com/BrightonLiu-zZ/PHY199-PCA_for_Keck_Telescope_Galaxy_Spectra" target="_blank" class="btn btn-sm z-depth-0" role="button" style="font-size:0.85rem;">GitHub &rarr;</a>
 
 ---
 

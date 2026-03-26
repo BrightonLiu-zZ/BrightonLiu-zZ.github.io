@@ -8,7 +8,7 @@ category: ML Engineering
 selected: true
 ---
 
-**Role:** Project Lead &nbsp;&middot;&nbsp; **Stack:** Python, C++, Qwen2.5-7B, Hugging Face TRL, KataGo &nbsp;&middot;&nbsp; **Year:** 2025 – Present
+**Role:** Project Lead &nbsp;&middot;&nbsp; **Stack:** Python, C++, Qwen3-8B, Hugging Face TRL, GRPO, KataGo &nbsp;&middot;&nbsp; **Year:** 2025 – Present
 
 <a href="https://github.com/BrightonLiu-zZ/KataGo-LLM-Team" target="_blank" class="btn btn-sm z-depth-0" role="button" style="font-size:0.85rem;">GitHub &rarr;</a>
 
@@ -16,23 +16,22 @@ selected: true
 
 ### Motivation
 
-Traditional Go AI like KataGo is opaque: it outputs top-k moves with win-rate estimates but cannot explain *why* a move fits the global context of the game. Beginners and intermediate players receive no transferable insight. This project fine-tunes a large language model to translate KataGo's raw policy and value signals into human-interpretable strategic reasoning.
+Traditional Go AI like KataGo is opaque: it outputs top-k moves with win-rate estimates but cannot explain *why* a move fits the global context of the game. Beginners and intermediate players receive no transferable insight. This project fine-tunes a large language model to translate KataGo's raw policy and value signals into human-interpretable strategic reasoning, elevating bot strength from a 10k baseline to **~7k** in real-world testing.
 
 ### Technical Approach
 
-**Fine-tuning Pipeline**
-- Fine-tuned **Qwen2.5-7B-Instruct** using **Hugging Face TRL (GRPOTrainer)** reinforcement learning framework.
-- Applied **4-bit quantization** to significantly reduce memory footprint and accelerate inference speed for local and edge deployment constraints.
+**RLAIF Fine-tuning Pipeline**
+- Fine-tuned **Qwen3-8B** via **GRPO** using Hugging Face TRL on a **113k-row dataset** of KataGo-annotated game positions.
+- Applied **4-bit GGUF quantization** for edge deployment on 8GB VRAM, achieving **~42.5 tok/sec** throughput and **0.52s TTFT**.
+- Engineered a **regime-switching RL** reward, adaptively overweighting rank-based signals in high-uncertainty states (win-rate ~0.5) and policy priors in deterministic positions to optimize risk-adjusted decision making.
 
-**Reward Mechanism**
-- Reward signal derived from KataGo's **Policy Value (Prior Probability)**, **ScoreLead**, and **Winrate deltas**.
-- Introduced strict penalty terms to constrain the action space: suppressing illegal moves, hallucinations, and format noise.
-- Result: **~90% reduction in invalid actions** across evaluation games.
+**Reward Hacking Mitigation**
+- Resolved severe reward hacking across the 113k-row dataset by implementing a strict **-0.5 format-validation penalty gate** to enforce output legality before any score-based reward is applied.
+- Dynamically scaled policy/score-lead weights for lopsided positions (downsampling low-information data), eliminating the model's incentive to exploit imbalanced game states.
 
 **C++ GTP Proxy**
-- Engineered a **C++ Go Text Protocol (GTP) proxy** for interactive model serving, intercepting GTP commands from Lizzie/KataGo.
-- Serializes live game states and KataGo's analysis for real-time inference.
-- Performance improvement: model elevated from **10k to 5k rating** against human players.
+- Engineered a **zero-network-overhead C++ Go Text Protocol (GTP) proxy** bridging the Lizzie GUI with the local LLM, intercepting GTP commands with no additional latency.
+- Serializes live game states and KataGo's analysis in real time, enabling sub-second move rationale generation during live play.
 
 ---
 

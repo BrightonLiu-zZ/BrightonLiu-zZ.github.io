@@ -31,9 +31,9 @@
       institution: Rothenberg Wealth Strategies
       year: Jan 2026 - Now
       description:
-        - Engineered a high-performance model evaluation pipeline using multiprocessing and Optuna, reducing simulation runtime for 1,000+ parameter combinations by over 75% (from 8+ hours to <2 hours).
-        - Developed features and sanity-testing frameworks for LightGBM classifier and TCN regressor; eliminated data leakage in out-of-sample stress tests via automated random-sampling validation scripts.
-        - Deployed optimized feature engineering and testing modules into the firm's production codebase via Git, collaborating with senior developers to maintain scalable and reproducible research pipelines.
+        - Engineered an ETL pipeline using DuckDB and Polars for rapid pre-filtering and Pandas for granular manipulation, processing 12 years of daily market data (tens of millions of rows); resolved GPU I/O bottlenecks via asynchronous PyTorch DataLoaders with memory pinning.
+        - Architected an 8-layer Temporal Convolutional Network (TCN) for 20-day probabilistic quantile forecasting (P10/P50/P90); benchmarked against LightGBM point estimates, achieving a 5% higher win rate and ~15% improvement in Sharpe ratio in out-of-sample backtesting.
+        - Conducted falsification on 40 LLM-generated alpha factors sourced from academic literature; implemented out-of-sample vectorized backtesting proving all 40 signals yielded negative returns after transaction costs, preventing deployment of spurious strategies.
     - title: Data Science Intern
       institution: Himiway Intelligent Technology USA
       year: Sep 2025 - Dec 2025
@@ -48,15 +48,15 @@
     - title: <a href="/projects/1_katago_llm/#demo-video">KataGo × LLM — Explainable Go AI</a>
       year: 2025 - Now
       description:
-        - Project Lead. Fine-tuned Qwen2.5-7B using Hugging Face TRL and GRPO with 4-bit quantization for efficient local inference.
-        - Designed reward mechanism using KataGo's Policy Value, ScoreLead, and Winrate deltas with penalty terms suppressing illegal moves, hallucinations, and format noise — reducing invalid actions by ~90%.
-        - Engineered a C++ GTP proxy for interactive model serving; elevated model from 10k to 5k rating against human players.
-    - title: ASTR199 — Stellar Parameter Prediction via Deep Learning
+        - "Project Lead. Fine-tuned Qwen3-8B via GRPO on a 113k-row dataset; applied 4-bit GGUF quantization for edge deployment on 8GB VRAM, achieving ~42.5 tok/sec and 0.52s TTFT."
+        - Resolved reward hacking via a -0.5 format-validation penalty gate and dynamically scaled policy/score-lead weights for lopsided positions; engineered regime-switching RL overweighting rank-based signals in high-uncertainty states.
+        - "Architected a zero-network-overhead C++ GTP proxy bridging Lizzie GUI with local LLM; elevated bot from 10k baseline to ~7k rating in real-world testing."
+    - title: <a href="/projects/5_astr199/">ASTR199 — Stellar Parameter Prediction via Deep Learning</a>
       year: 2026
       description:
         - Machine Learning Researcher with Prof. Theissen, UCSD.
-        - Engineered a large-scale SQL pipeline to cross-match 1M+ rows across Gaia, SDSS, WISE catalogs with Sigma Clipping for quality filtering.
-        - Baseline MLP for multi-target regression (Teff, Metallicity, Surface Gravity); applied PEFT via LoRA for M-dwarf sub-populations, reducing RMSE by ~20%.
+        - Engineered an ETL pipeline using DuckDB to cross-match ~1M rows across 7 photometric catalogs; formulated 171 color indices and 19 absolute magnitudes as a physics-informed feature space.
+        - "Architected a two-stage sequential DL pipeline resolving multi-task loss collapse via Homoscedastic Uncertainty Loss; injected Stage-1 T_eff predictions as HR diagram proxies, driving log g R² from 0.519 to 0.833."
     - title: Breaking Barriers Hackathon (Top 8/32)
       year: 2025
       description:
@@ -84,7 +84,7 @@
     - title: Machine Learning & AI
       items:
         - PyTorch, TensorFlow, Hugging Face (TRL, Transformers)
-        - Model Quantization (4-bit), PEFT/LoRA
+        - RLAIF, GRPO, Model Quantization (4-bit GGUF), PEFT/LoRA, Edge Inference (llama.cpp)
         - XGBoost, LightGBM, TCN (Temporal Convolutional Networks), Scikit-learn, Optuna
     - title: Data Engineering & Systems
       items:

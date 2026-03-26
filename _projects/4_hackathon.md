@@ -3,12 +3,14 @@ layout: page
 title: Breaking Barriers Hackathon
 description: Real-time anomaly detection system deployed on AWS. Top 8 of 32 teams at AWS × Deloitte × AT&T.
 img: assets/img/hackathon.png
-importance: 4
+importance: 3
 category: Industry
-selected: false
+selected: true
 ---
 
 **Result:** Finalist — Top 8 of 32 Teams &nbsp;&middot;&nbsp; **Organizers:** AWS × Deloitte × AT&T &nbsp;&middot;&nbsp; **Stack:** Python, XGBoost, AWS Lambda, S3, Amazon Location Service &nbsp;&middot;&nbsp; **Year:** 2025
+
+<a href="https://github.com/BrightonLiu-zZ/Hackathon-Breaking-Barriers-Public-Safety-Network-Intelligence-Innovation" target="_blank" class="btn btn-sm z-depth-0" role="button" style="font-size:0.85rem;">GitHub &rarr;</a>
 
 ---
 
