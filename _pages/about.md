@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: >
   ML Engineer & Quant Researcher &nbsp;·&nbsp; Astrophysics + Data Science @ UCSD &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/brighton-liu-2b819b331" target="_blank">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/zijun-brighton-liu-2b819b331" target="_blank">LinkedIn</a>
 
 profile:
   align: right
