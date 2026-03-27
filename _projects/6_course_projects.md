@@ -2,7 +2,8 @@
 layout: page
 title: Course Projects
 description: A collection of course projects from UCSD.
-img: assets/img/clash_royal.png
+img: assets/img/CourseProject.png
+
 importance: 6
 category: Course Projects
 selected: false
