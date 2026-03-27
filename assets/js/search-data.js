@@ -417,8 +417,13 @@ ninja.data = [{
           description: "Two-stage deep learning pipeline predicting stellar Teff, metallicity, and log g from 1M+ row multi-survey photometric catalog, driving log g R² from 0.519 to 0.833.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_astr199/";
-            },},{id: "projects-dsc106-do-quot-toxic-quot-cards-actually-win-a-clash-royale-data-story",
-          title: 'DSC106 — Do &amp;quot;Toxic&amp;quot; Cards Actually Win? A Clash Royale Data Story',
+            },},{id: "projects-course-projects",
+          title: 'Course Projects',
+          description: "A collection of course projects from UCSD.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_course_projects/";
+            },},{id: "projects-dsc106-final-project-do-quot-toxic-quot-cards-actually-win-a-clash-royale-data-story",
+          title: 'DSC106 Final Project — Do &amp;quot;Toxic&amp;quot; Cards Actually Win? A Clash Royale Data...',
           description: "Interactive D3.js data story analyzing 2.1M+ Clash Royale ladder battles to reveal that cheap support spells, not powerful troop cards, dominate high-level play.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_dsc106/";
