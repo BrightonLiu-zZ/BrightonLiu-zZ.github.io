@@ -19,7 +19,7 @@ selected: false
             {%
               include figure.liquid
               loading="eager"
-              path="assets/img/CourseProject.png"
+              path=dsc106.img
               sizes="250px"
               alt="project thumbnail"
               class="card-img-top"
@@ -27,6 +27,27 @@ selected: false
             <div class="card-body">
               <h2 class="card-title">{{ dsc106.title }}</h2>
               <p class="card-text">{{ dsc106.description }}</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endif %}
+    {% assign lol = site.projects | where_exp: "p", "p.path contains '7_dsc80_lol'" | first %}
+    {% if lol %}
+      <div class="col">
+        <a href="{{ lol.url | relative_url }}">
+          <div class="card h-100 hoverable">
+            {%
+              include figure.liquid
+              loading="eager"
+              path=lol.img
+              sizes="250px"
+              alt="project thumbnail"
+              class="card-img-top"
+            %}
+            <div class="card-body">
+              <h2 class="card-title">{{ lol.title }}</h2>
+              <p class="card-text">{{ lol.description }}</p>
             </div>
           </div>
         </a>
