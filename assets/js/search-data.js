@@ -427,6 +427,11 @@ ninja.data = [{
           description: "Interactive D3.js data story analyzing 2.1M+ Clash Royale ladder battles to reveal that cheap support spells, not powerful troop cards, dominate high-level play.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_dsc106/";
+            },},{id: "projects-dsc80-league-of-legends-15-minute-comeback-analysis",
+          title: 'DSC80 — League of Legends 15-Minute Comeback Analysis',
+          description: "An end-to-end data science lifecycle project analyzing 150k+ professional LoL matches using hypothesis testing and logistic regression to predict comeback probabilities.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_dsc80_lol/";
             },},{
         id: 'social-email',
         title: 'email',
