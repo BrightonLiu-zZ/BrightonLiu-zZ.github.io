@@ -391,11 +391,17 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-started-a-new-role-as-a-data-science-intern-at-himiway-intelligent-technology",
+            },},{id: "news-co-founded-and-became-president-of-the-go-club-at-uc-davis-building-a-community-for-go-players-of-all-levels",
+          title: 'Co-founded and became President of the Go Club at UC Davis — building...',
+          description: "",
+          section: "News",},{id: "news-started-a-new-role-as-a-data-science-intern-at-himiway-intelligent-technology",
           title: 'Started a new role as a Data Science Intern at Himiway Intelligent Technology....',
           description: "",
           section: "News",},{id: "news-started-a-new-role-as-an-ai-ml-quantitative-research-intern-at-rothenberg-wealth-strategies-working-on-model-evaluation-pipelines-and-feature-engineering-for-production-quant-research",
           title: 'Started a new role as an AI/ML Quantitative Research Intern at Rothenberg Wealth...',
+          description: "",
+          section: "News",},{id: "news-started-a-new-role-as-an-ai-ml-engineer-intern-at-xview-llc-working-on-multi-agent-llm-pipelines-and-rag-systems-for-production-grounding",
+          title: 'Started a new role as an AI/ML Engineer Intern at XView LLC, working...',
           description: "",
           section: "News",},{id: "projects-katago-llm-explainable-go-ai",
           title: 'KataGo × LLM — Explainable Go AI',
