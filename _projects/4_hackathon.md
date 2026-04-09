@@ -30,6 +30,6 @@ Built a real-time crowd anomaly detection system for simulated tail-risk events 
 
 ### Deployment
 
-- Deployed ultra-low latency model inference via **AWS Lambda** with end-to-end response time **<100ms**.
+- Deployed ultra-low latency model inference via **AWS Lambda** with end-to-end response time **<400ms**.
 - Streamed anomaly triggers to an **S3-hosted dashboard** using **Amazon Location Service** and MapLibre for real-time geospatial visualization.
 - Architecture is fully serverless and auto-scales with event volume.

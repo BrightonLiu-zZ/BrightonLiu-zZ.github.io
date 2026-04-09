@@ -17,7 +17,7 @@
       institution: University of California, San Diego
       year: 2025 - 2027
       description:
-        - "GPA: 3.97 (Institutional) | 3.87 (Cumulative)"
+        - "GPA: 3.98 (Institutional) | 3.88 (Cumulative)"
     - title: B.S. Physics (Astrophysics Emphasis) & Data Science
       institution: University of California, Davis
       year: 2023 - 2025
@@ -27,13 +27,20 @@
 - title: Experience
   type: time_table
   contents:
+    - title: AI/ML Engineer Intern
+      institution: XView LLC
+      year: Mar 2026 - Present
+      description:
+        - Architected a multi-agent LLM content pipeline generating 35 platform-tailored drafts per run across 5 social platforms, cutting content production time by ~90%.
+        - Drove a ~60% reduction in brand factual errors by engineering and evaluating a RAG integration; established a phased evaluation protocol (prompt A/B testing, chunking strategy comparison) to iteratively improve output quality, achieving ~30% human revision rate pre-publish.
     - title: AI/ML Quantitative Research Intern
       institution: Rothenberg Wealth Strategies
-      year: Jan 2026 - Now
+      year: Jan 2026 - Mar 2026
       description:
-        - Engineered an ETL pipeline using DuckDB and Polars for rapid pre-filtering and Pandas for granular manipulation, processing 12 years of daily market data (tens of millions of rows); resolved GPU I/O bottlenecks via asynchronous PyTorch DataLoaders with memory pinning.
-        - Architected an 8-layer Temporal Convolutional Network (TCN) for 20-day probabilistic quantile forecasting (P10/P50/P90); benchmarked against LightGBM point estimates, achieving a 5% higher win rate and ~15% improvement in Sharpe ratio in out-of-sample backtesting.
-        - Conducted falsification on 40 LLM-generated alpha factors sourced from academic literature; implemented out-of-sample vectorized backtesting proving all 40 signals yielded negative returns after transaction costs, preventing deployment of spurious strategies.
+        - Conducted systematic falsification of 40 LLM-generated alpha factors sourced from academic literature; implemented out-of-sample vectorized backtesting with transaction cost modeling and blocked deployment of all 40 spurious signals by proving negative post-cost returns.
+        - Architected an iterative feature selection pipeline using LightGBM to evaluate 200+ engineered features; applied Mutual Information scoring to prune highly correlated pairs and eliminate OOM errors during backtesting.
+        - Built an 8-layer Temporal Convolutional Network (TCN) for probabilistic quantile forecasting (P10/P50/P90); stabilized training via gradient norm clipping and dropout; maximized GPU throughput by resolving I/O bottlenecks with async PyTorch DataLoaders and memory pinning; achieved ~15% Sharpe improvement over LightGBM.
+        - Engineered a three-stage signal pipeline over ~10M rows (~1,000 US equities) — a self-supervised Conv1D-VAE compresses market windows into 512-dim latent representations; an LGBM Scout + meta-learning Gatekeeper filter low-confidence signals via CPCV; achieved ~7% win rate improvement over baseline LightGBM.
     - title: Data Science Intern
       institution: Himiway Intelligent Technology USA
       year: Sep 2025 - Dec 2025
@@ -61,7 +68,7 @@
       year: 2025
       description:
         - "AWS × Deloitte × AT&T. Real-time anomaly detection with 0.5–1s micro-batching pipeline for LLM-generated data streams."
-        - XGBoost classifier with PR AUC threshold tuning deployed via AWS Lambda (<100ms) with Amazon Location Service interactive dashboard.
+        - XGBoost classifier with PR AUC threshold tuning deployed via AWS Lambda (<400ms) with Amazon Location Service interactive dashboard.
     - title: PHY199 — Galaxy Spectra PCA Pipeline
       year: 2025
       description:
@@ -83,12 +90,13 @@
         - Python, C++, SQL, R, Bash/Shell
     - title: Machine Learning & AI
       items:
-        - PyTorch, TensorFlow, Hugging Face (TRL, Transformers)
+        - PyTorch, PyTorch Lightning, TensorFlow, Hugging Face (TRL, Transformers)
         - RLAIF, GRPO, Model Quantization (4-bit GGUF), PEFT/LoRA, Edge Inference (llama.cpp)
-        - XGBoost, LightGBM, TCN (Temporal Convolutional Networks), Scikit-learn, Optuna
+        - XGBoost, LightGBM, TCN (Temporal Convolutional Networks), Variational Autoencoder, Scikit-learn, Optuna
+        - CrewAI (Multi-Agent Systems), RAG
     - title: Data Engineering & Systems
       items:
-        - DuckDB, Polars, Pandas, PostgreSQL, NumPy
+        - DuckDB, Polars, Pandas, PostgreSQL, BigQuery, NumPy
         - Inter-Process Communication (IPC), Multiprocessing, ETL Architecture, REST APIs
     - title: Cloud & MLOps
       items:
@@ -103,7 +111,7 @@
   type: time_table
   contents:
     - title: President & Co-Founder
-      institution: Go Club at UC Davis
+      institution: <a href="https://www.instagram.com/go_club_at_ucd/" target="_blank">Go Club at UC Davis</a>
       year: Sep 2024 - Jun 2025
       description:
         - Grew membership to 30+ members; coordinated with ACGA and universities to run inter-school competitions and community events.
