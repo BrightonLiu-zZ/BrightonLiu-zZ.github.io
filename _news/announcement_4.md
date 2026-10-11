@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a new role as an **AI/ML Quantitative Research Intern** at **Rothenberg Wealth Strategies**, working on model evaluation pipelines and feature engineering for production quant research.
+Started a new role as a **Machine Learning Research Intern** at **Rothenberg Wealth Strategies**, running LightGBM experiments and building self-supervised sequence models.

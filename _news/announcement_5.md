@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a new role as an **AI/ML Engineer Intern** at **XView LLC**, working on multi-agent LLM pipelines and RAG systems for production grounding.
+Started a new role as an **AI Engineer Intern** at **XView LLC**, building a multi-agent RAG pipeline and its evaluation loop.
