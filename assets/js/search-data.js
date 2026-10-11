@@ -11,14 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of projects in ML engineering and astrophysics.",
+          description: "ML research and engineering projects, from self-supervised learning to LLM post-training.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-publications",
+          title: "publications",
+          description: "Papers and workshop publications.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
         },{id: "nav-cv",
           title: "cv",
-          description: "Zijun Liu — AI/ML Engineering &amp; Quantitative Research. &amp;nbsp; Download: AI/ML Resume &amp;nbsp;&amp;middot;&amp;nbsp; Quant Research Resume",
+          description: "Zijun (Brighton) Liu — ML Engineering &amp; ML Research. &amp;nbsp; Download: ML Engineering Resume &amp;nbsp;&amp;middot;&amp;nbsp; ML Research Resume",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -397,15 +404,26 @@ ninja.data = [{
           section: "News",},{id: "news-started-a-new-role-as-a-data-science-intern-at-himiway-intelligent-technology",
           title: 'Started a new role as a Data Science Intern at Himiway Intelligent Technology....',
           description: "",
-          section: "News",},{id: "news-started-a-new-role-as-an-ai-ml-quantitative-research-intern-at-rothenberg-wealth-strategies-working-on-model-evaluation-pipelines-and-feature-engineering-for-production-quant-research",
-          title: 'Started a new role as an AI/ML Quantitative Research Intern at Rothenberg Wealth...',
+          section: "News",},{id: "news-started-a-new-role-as-a-machine-learning-research-intern-at-rothenberg-wealth-strategies-running-lightgbm-experiments-and-building-self-supervised-sequence-models",
+          title: 'Started a new role as a Machine Learning Research Intern at Rothenberg Wealth...',
           description: "",
-          section: "News",},{id: "news-started-a-new-role-as-an-ai-ml-engineer-intern-at-xview-llc-working-on-multi-agent-llm-pipelines-and-rag-systems-for-production-grounding",
-          title: 'Started a new role as an AI/ML Engineer Intern at XView LLC, working...',
+          section: "News",},{id: "news-started-a-new-role-as-an-ai-engineer-intern-at-xview-llc-building-a-multi-agent-rag-pipeline-and-its-evaluation-loop",
+          title: 'Started a new role as an AI Engineer Intern at XView LLC, building...',
           description: "",
-          section: "News",},{id: "projects-katago-llm-explainable-go-ai",
-          title: 'KataGo × LLM — Explainable Go AI',
-          description: "Fine-tuning LLMs with RL to explain Go strategies using KataGo&#39;s superhuman analysis.",
+          section: "News",},{id: "news-returned-to-rothenberg-wealth-strategies-as-a-machine-learning-research-intern-taking-a-lightgbm-model-i-trained-to-an-unattended-production-service",
+          title: 'Returned to Rothenberg Wealth Strategies as a Machine Learning Research Intern, taking a...',
+          description: "",
+          section: "News",},{id: "news-my-first-author-paper-what-does-self-supervision-add-to-engineered-features-for-stellar-light-curves-was-accepted-at-the-ml4ps-workshop-neurips-2026-project-page",
+          title: 'My first-author paper, What does self-supervision add to engineered features for stellar light...',
+          description: "",
+          section: "News",},{id: "projects-self-supervised-learning-on-stellar-light-curves",
+          title: 'Self-Supervised Learning on Stellar Light Curves',
+          description: "First-author paper, ML4PS @ NeurIPS 2026. A self-supervised encoder pre-trained on unlabelled TESS light curves adds to engineered features on 7 of 10 tasks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_stellar_ssl/";
+            },},{id: "projects-katago-llm-llm-post-training-amp-edge-deployment",
+          title: 'KataGo × LLM — LLM Post-Training &amp;amp; Edge Deployment',
+          description: "Post-trained Qwen3-8B (SFT → GRPO) to play 9×9 Go and explain its moves; 4-bit edge deployment and multi-LoRA vLLM serving.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_katago_llm/";
             },},{id: "projects-phy199-galaxy-spectra-pca-pipeline",
@@ -457,14 +475,21 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/brighton-liu-2b819b331", "_blank");
+          window.open("https://www.linkedin.com/in/zijun-brighton-liu-2b819b331", "_blank");
         },
       },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/resume_aiml.pdf", "_blank");
+          window.open("/assets/pdf/resume_ml_engineering.pdf", "_blank");
+        },
+      },{
+        id: 'social-huggingface',
+        title: 'Huggingface',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://huggingface.co/brightonliuzZ", "_blank");
         },
       },{
       id: 'light-theme',
