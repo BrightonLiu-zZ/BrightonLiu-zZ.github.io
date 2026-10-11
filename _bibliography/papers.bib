@@ -1,8 +1,10 @@
-@article{MyFirstPaper,
-  abbr={Pending},
-  title={Analysis of Galaxy Spectra using PCA Pipelines},
-  author={Liu, Brighton},
-  year={2025},
-  publisher={Draft},
+@inproceedings{liu2026stellarssl,
+  abbr={ML4PS},
+  title={What does self-supervision add to engineered features for stellar light curves?},
+  author={Liu, Zijun and Ma, Yue and Theissen, Christopher},
+  booktitle={Machine Learning and the Physical Sciences Workshop at NeurIPS 2026},
+  year={2026},
+  code={https://github.com/BrightonLiu-zZ/stellar-ssl},
+  abstract={TESS light curves encode a star's pulsation, rotation, binarity and oscillations, but the survey produces far more light curves than can be labelled by hand. We pre-train a convolutional encoder on unlabelled TESS light curves to predict each window's latent representation from those of its neighbours, freeze it, add its features to 25 engineered features, and read the combination out with one fixed linear probe on ten tasks. Adding the learned features improves the readout on 7 of 10 tasks over the engineered features alone, where an untrained encoder does not, and the combination outperforms two networks trained end-to-end on most tasks.},
   selected={true}
 }
