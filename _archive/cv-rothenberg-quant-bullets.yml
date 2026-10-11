@@ -1,0 +1,9 @@
+    - title: AI/ML Quantitative Research Intern
+      institution: Rothenberg Wealth Strategies
+      year: Jan 2026 - Mar 2026
+      description:
+        - Conducted systematic falsification of 40 LLM-generated alpha factors sourced from academic literature; implemented out-of-sample vectorized backtesting with transaction cost modeling and blocked deployment of all 40 spurious signals by proving negative post-cost returns.
+        - Architected an iterative feature selection pipeline using LightGBM to evaluate 200+ engineered features; applied Mutual Information scoring to prune highly correlated pairs and eliminate OOM errors during backtesting.
+        - Built an 8-layer Temporal Convolutional Network (TCN) for probabilistic quantile forecasting (P10/P50/P90); stabilized training via gradient norm clipping and dropout; maximized GPU throughput by resolving I/O bottlenecks with async PyTorch DataLoaders and memory pinning; achieved ~15% Sharpe improvement over LightGBM.
+        - Engineered a three-stage signal pipeline over ~10M rows (~1,000 US equities) — a self-supervised Conv1D-VAE compresses market windows into 512-dim latent representations; an LGBM Scout + meta-learning Gatekeeper filter low-confidence signals via CPCV; achieved ~7% win rate improvement over baseline LightGBM.
+    - title: Data Science Intern
