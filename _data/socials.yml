@@ -1,4 +1,8 @@
 email: liuzijun6688@gmail.com
 github_username: BrightonLiu-zZ
-linkedin_username: brighton-liu-2b819b331
-cv_pdf: assets/pdf/resume_aiml.pdf
+linkedin_username: zijun-brighton-liu-2b819b331
+cv_pdf: assets/pdf/resume_ml_engineering.pdf
+huggingface:
+  logo: https://huggingface.co/front/assets/huggingface_logo-noborder.svg
+  title: Hugging Face
+  url: https://huggingface.co/brightonliuzZ
