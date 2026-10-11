@@ -3,7 +3,7 @@ layout: page
 title: PHY199 — Galaxy Spectra PCA Pipeline
 description: Automated high-dimensional spectra preprocessing and unsupervised PCA outlier filtering with Prof. Wittman at UC Davis.
 img: assets/img/galaxy_spectra.png
-importance: 4
+importance: 5
 category: Research
 selected: true
 ---

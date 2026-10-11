@@ -2,10 +2,11 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of projects in ML engineering and astrophysics.
+description: ML research and engineering projects, from self-supervised learning to LLM post-training.
 nav: true
 nav_order: 2
 horizontal: false
+display_categories: ["Research", "ML Engineering", "Other"]
 ---
 
 <!-- pages/projects.md -->

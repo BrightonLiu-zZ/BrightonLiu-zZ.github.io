@@ -5,7 +5,7 @@ description: A collection of course projects from UCSD.
 img: assets/img/CourseProject.png
 
 importance: 6
-category: Course Projects
+category: Other
 selected: false
 ---
 
