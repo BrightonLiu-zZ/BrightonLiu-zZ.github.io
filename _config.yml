@@ -9,7 +9,7 @@ last_name: Liu
 contact_note: >
   The best way to reach me is by email or LinkedIn.
 description: > # the ">", symbol means to ignore newlines until "footer_text:"
-  Zijun (Brighton) Liu — Astrophysics & Data Science student at UCSD, building ML systems and quantitative research pipelines.
+  Zijun (Brighton) Liu — Astrophysics & Data Science student at UCSD working on self-supervised sequence models, LLM post-training and production ML.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -185,6 +185,7 @@ exclude:
   - INSTALL.md
   - LICENSE
   - lighthouse_results/
+  - _archive/
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
@@ -264,8 +265,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Liu]
+  first_name: [Zijun, Z.]
 
   style: apa
   locale: en
