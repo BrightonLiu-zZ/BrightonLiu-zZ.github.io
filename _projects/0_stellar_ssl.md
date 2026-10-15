@@ -10,8 +10,9 @@ selected: true
 
 **Role:** First author, with Y. Ma and Prof. C. Theissen (UC San Diego) &nbsp;&middot;&nbsp; **Stack:** Python, PyTorch, scikit-learn, Weights & Biases &nbsp;&middot;&nbsp; **Year:** 2026 – Present
 
-**Paper:** *What does self-supervision add to engineered features for stellar light curves?* — accepted at the Machine Learning and the Physical Sciences (ML4PS) workshop @ NeurIPS 2026.
+**Paper:** *What does self-supervision add to engineered features for stellar light curves?* — accepted at the Machine Learning and the Physical Sciences (ML4PS) workshop @ NeurIPS 2026 ([arXiv:2610.14283](https://arxiv.org/abs/2610.14283)).
 
+<a href="https://arxiv.org/abs/2610.14283" target="_blank" class="btn btn-sm z-depth-0" role="button" style="font-size:0.85rem;">arXiv &rarr;</a>
 <a href="https://github.com/BrightonLiu-zZ/stellar-ssl" target="_blank" class="btn btn-sm z-depth-0" role="button" style="font-size:0.85rem;">GitHub &rarr;</a>
 
 ---

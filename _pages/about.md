@@ -32,7 +32,7 @@ I'm Brighton, a senior at **UC San Diego** studying **Astrophysics** with a mino
 
 ### Highlights
 
-- **First-author paper, ML4PS workshop @ NeurIPS 2026** — a self-supervised encoder pre-trained on unlabelled TESS light curves adds to engineered features on 7 of 10 tasks. [Project](/projects/0_stellar_ssl/) · [Code](https://github.com/BrightonLiu-zZ/stellar-ssl)
+- **First-author paper, ML4PS workshop @ NeurIPS 2026** — a self-supervised encoder pre-trained on unlabelled TESS light curves adds to engineered features on 7 of 10 tasks. [arXiv](https://arxiv.org/abs/2610.14283) · [Project](/projects/0_stellar_ssl/) · [Code](https://github.com/BrightonLiu-zZ/stellar-ssl)
 - **KataGo × LLM (project lead)** — post-trained Qwen3-8B with SFT → GRPO on 302k engine-verified examples; runs 4-bit on an 8 GB GPU and serves base + 2 LoRA adapters from one vLLM instance. [Demo](/projects/1_katago_llm/#demo-video) · [Code](https://github.com/BrightonLiu-zZ/KataGo-LLM-Team)
 - **ML Research Intern, Rothenberg Wealth Strategies** — trained a LightGBM model and deployed it as an unattended production service; built a multi-worker experiment runner (1,000+ runs per sweep).
 
