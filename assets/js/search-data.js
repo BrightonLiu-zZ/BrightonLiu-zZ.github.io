@@ -413,7 +413,7 @@ ninja.data = [{
           section: "News",},{id: "news-returned-to-rothenberg-wealth-strategies-as-a-machine-learning-research-intern-taking-a-lightgbm-model-i-trained-to-an-unattended-production-service",
           title: 'Returned to Rothenberg Wealth Strategies as a Machine Learning Research Intern, taking a...',
           description: "",
-          section: "News",},{id: "news-my-first-author-paper-what-does-self-supervision-add-to-engineered-features-for-stellar-light-curves-was-accepted-at-the-ml4ps-workshop-neurips-2026-project-page",
+          section: "News",},{id: "news-my-first-author-paper-what-does-self-supervision-add-to-engineered-features-for-stellar-light-curves-was-accepted-at-the-ml4ps-workshop-neurips-2026-arxiv-project-page",
           title: 'My first-author paper, What does self-supervision add to engineered features for stellar light...',
           description: "",
           section: "News",},{id: "projects-self-supervised-learning-on-stellar-light-curves",
